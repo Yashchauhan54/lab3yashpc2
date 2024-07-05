@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" prefHeight="416.0" prefWidth="373.0" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.hrmanagementyash.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="WELCOME TO YCTECH PVT.LTD." />
+   <Pane prefHeight="227.0" prefWidth="333.0">
+      <children>
+         <Button fx:id="employee" layoutX="124.0" layoutY="59.0" mnemonicParsing="false" onAction="#employee" prefHeight="25.0" prefWidth="86.0" text="Employee" />
+         <Button fx:id="admin" layoutX="124.0" layoutY="108.0" mnemonicParsing="false" onAction="#admin" prefHeight="25.0" prefWidth="86.0" text="Admin" />
+         <Button fx:id="exit" layoutX="28.0" layoutY="151.0" mnemonicParsing="false" onAction="#exit" prefHeight="25.0" prefWidth="86.0" text="Exit" />
+         <Button fx:id="logout" layoutX="201.0" layoutY="151.0" mnemonicParsing="false" onAction="#logout" prefHeight="25.0" prefWidth="86.0" text="LogOut" />
+         <Text fontSmoothingType="LCD" layoutX="28.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yash Chauhan " wrappingWidth="213.8984375">
+            <font>
+               <Font size="18.0" />
+            </font>
+         </Text>
+         <Text layoutX="190.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID; 23003457">
+            <font>
+               <Font size="18.0" />
+            </font></Text>
+      </children>
+   </Pane>
+
+          <Label fx:id="welcomeText" prefHeight="35.0" prefWidth="96.0">
+      <font>
+         <Font size="18.0" />
+      </font></Label>
+</VBox>
